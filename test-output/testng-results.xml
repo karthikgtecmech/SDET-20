@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-26T12:48:01 IST" name="Suite" finished-at="2021-08-26T12:50:58 IST" duration-ms="176241">
+    <groups>
+      <group name="smokeTesting">
+        <method signature="CreateOpportunity.CreateOpportunity_tc_07_Test()[pri:0, instance:com.vtiger.com_opptest.copy.CreateOpportunity@130161f7]" name="CreateOpportunity_tc_07_Test" class="com.vtiger.com_opptest.copy.CreateOpportunity"/>
+        <method signature="CreateOpportunity.CreateOpportunity_tc_08_Test()[pri:0, instance:com.vtiger.com_opptest.copy.CreateOpportunity@130161f7]" name="CreateOpportunity_tc_08_Test" class="com.vtiger.com_opptest.copy.CreateOpportunity"/>
+        <method signature="CreateOpportunity.CreateOpportunity_tc_09_Test()[pri:0, instance:com.vtiger.com_opptest.copy.CreateOpportunity@130161f7]" name="CreateOpportunity_tc_09_Test" class="com.vtiger.com_opptest.copy.CreateOpportunity"/>
+        <method signature="CreateOpportunity.CreateOpportunity_tc_07_Test()[pri:0, instance:com.vtiger.com_opptest.CreateOpportunity@323b36e0]" name="CreateOpportunity_tc_07_Test" class="com.vtiger.com_opptest.CreateOpportunity"/>
+        <method signature="CreateOpportunity.CreateOpportunity_tc_08_Test()[pri:0, instance:com.vtiger.com_opptest.CreateOpportunity@323b36e0]" name="CreateOpportunity_tc_08_Test" class="com.vtiger.com_opptest.CreateOpportunity"/>
+        <method signature="CreateOpportunity.CreateOpportunity_tc_09_Test()[pri:0, instance:com.vtiger.com_opptest.CreateOpportunity@323b36e0]" name="CreateOpportunity_tc_09_Test" class="com.vtiger.com_opptest.CreateOpportunity"/>
+      </group> <!-- smokeTesting -->
+      <group name="regressionTesting">
+        <method signature="CreateOpportunity.CreateOpportunity_tc_07_Test()[pri:0, instance:com.vtiger.com_opptest.copy.CreateOpportunity@130161f7]" name="CreateOpportunity_tc_07_Test" class="com.vtiger.com_opptest.copy.CreateOpportunity"/>
+        <method signature="CreateOpportunity.CreateOpportunity_tc_08_Test()[pri:0, instance:com.vtiger.com_opptest.copy.CreateOpportunity@130161f7]" name="CreateOpportunity_tc_08_Test" class="com.vtiger.com_opptest.copy.CreateOpportunity"/>
+        <method signature="CreateOpportunity.CreateOpportunity_tc_09_Test()[pri:0, instance:com.vtiger.com_opptest.copy.CreateOpportunity@130161f7]" name="CreateOpportunity_tc_09_Test" class="com.vtiger.com_opptest.copy.CreateOpportunity"/>
+        <method signature="CreateOpportunity.CreateOpportunity_tc_07_Test()[pri:0, instance:com.vtiger.com_opptest.CreateOpportunity@323b36e0]" name="CreateOpportunity_tc_07_Test" class="com.vtiger.com_opptest.CreateOpportunity"/>
+        <method signature="CreateOpportunity.CreateOpportunity_tc_08_Test()[pri:0, instance:com.vtiger.com_opptest.CreateOpportunity@323b36e0]" name="CreateOpportunity_tc_08_Test" class="com.vtiger.com_opptest.CreateOpportunity"/>
+        <method signature="CreateOpportunity.CreateOpportunity_tc_09_Test()[pri:0, instance:com.vtiger.com_opptest.CreateOpportunity@323b36e0]" name="CreateOpportunity_tc_09_Test" class="com.vtiger.com_opptest.CreateOpportunity"/>
+      </group> <!-- regressionTesting -->
+    </groups>
+    <test started-at="2021-08-26T12:48:01 IST" name="TestRunner-1" finished-at="2021-08-26T12:50:54 IST" duration-ms="172758">
+      <class name="com.vtiger.com_opptest.copy.CreateOpportunity">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.vtiger.com_opptest.copy.CreateOpportunity@130161f7]" started-at="2021-08-26T12:48:01 IST" name="beforeClass" finished-at="2021-08-26T12:48:09 IST" duration-ms="7656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.vtiger.com_opptest.copy.CreateOpportunity@130161f7]" started-at="2021-08-26T12:48:09 IST" name="beforeMethod" finished-at="2021-08-26T12:48:21 IST" duration-ms="11757" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="CreateOpportunity_tc_07_Test()[pri:0, instance:com.vtiger.com_opptest.copy.CreateOpportunity@130161f7]" started-at="2021-08-26T12:48:21 IST" name="CreateOpportunity_tc_07_Test" finished-at="2021-08-26T12:49:05 IST" duration-ms="44366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateOpportunity_tc_07_Test -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.vtiger.com_opptest.copy.CreateOpportunity@130161f7]" started-at="2021-08-26T12:49:05 IST" name="afterMethod" finished-at="2021-08-26T12:49:10 IST" duration-ms="4503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.vtiger.com_opptest.copy.CreateOpportunity@130161f7]" started-at="2021-08-26T12:49:10 IST" name="beforeMethod" finished-at="2021-08-26T12:49:17 IST" duration-ms="7767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="CreateOpportunity_tc_08_Test()[pri:0, instance:com.vtiger.com_opptest.copy.CreateOpportunity@130161f7]" started-at="2021-08-26T12:49:17 IST" name="CreateOpportunity_tc_08_Test" finished-at="2021-08-26T12:49:59 IST" duration-ms="41186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateOpportunity_tc_08_Test -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.vtiger.com_opptest.copy.CreateOpportunity@130161f7]" started-at="2021-08-26T12:49:59 IST" name="afterMethod" finished-at="2021-08-26T12:50:01 IST" duration-ms="2741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.vtiger.com_opptest.copy.CreateOpportunity@130161f7]" started-at="2021-08-26T12:50:01 IST" name="beforeMethod" finished-at="2021-08-26T12:50:07 IST" duration-ms="5973" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="CreateOpportunity_tc_09_Test()[pri:0, instance:com.vtiger.com_opptest.copy.CreateOpportunity@130161f7]" started-at="2021-08-26T12:50:07 IST" name="CreateOpportunity_tc_09_Test" finished-at="2021-08-26T12:50:49 IST" duration-ms="41111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateOpportunity_tc_09_Test -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.vtiger.com_opptest.copy.CreateOpportunity@130161f7]" started-at="2021-08-26T12:50:49 IST" name="afterMethod" finished-at="2021-08-26T12:50:54 IST" duration-ms="5263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.vtiger.com_opptest.copy.CreateOpportunity@130161f7]" started-at="2021-08-26T12:50:54 IST" name="afterClass" finished-at="2021-08-26T12:50:54 IST" duration-ms="366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.vtiger.com_opptest.copy.CreateOpportunity -->
+    </test> <!-- TestRunner-1 -->
+    <test started-at="2021-08-26T12:48:01 IST" name="TestRunner-2" finished-at="2021-08-26T12:50:58 IST" duration-ms="176241">
+      <class name="com.vtiger.com_opptest.CreateOpportunity">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.vtiger.com_opptest.CreateOpportunity@323b36e0]" started-at="2021-08-26T12:48:01 IST" name="beforeSuite" finished-at="2021-08-26T12:48:01 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.vtiger.com_opptest.CreateOpportunity@323b36e0]" started-at="2021-08-26T12:48:01 IST" name="beforeClass" finished-at="2021-08-26T12:48:08 IST" duration-ms="6815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.vtiger.com_opptest.CreateOpportunity@323b36e0]" started-at="2021-08-26T12:48:08 IST" name="beforeMethod" finished-at="2021-08-26T12:48:18 IST" duration-ms="9638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="CreateOpportunity_tc_07_Test()[pri:0, instance:com.vtiger.com_opptest.CreateOpportunity@323b36e0]" started-at="2021-08-26T12:48:18 IST" name="CreateOpportunity_tc_07_Test" finished-at="2021-08-26T12:49:04 IST" duration-ms="46118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateOpportunity_tc_07_Test -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.vtiger.com_opptest.CreateOpportunity@323b36e0]" started-at="2021-08-26T12:49:04 IST" name="afterMethod" finished-at="2021-08-26T12:49:08 IST" duration-ms="3780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.vtiger.com_opptest.CreateOpportunity@323b36e0]" started-at="2021-08-26T12:49:08 IST" name="beforeMethod" finished-at="2021-08-26T12:49:15 IST" duration-ms="7426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="CreateOpportunity_tc_08_Test()[pri:0, instance:com.vtiger.com_opptest.CreateOpportunity@323b36e0]" started-at="2021-08-26T12:49:15 IST" name="CreateOpportunity_tc_08_Test" finished-at="2021-08-26T12:49:58 IST" duration-ms="42715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateOpportunity_tc_08_Test -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.vtiger.com_opptest.CreateOpportunity@323b36e0]" started-at="2021-08-26T12:49:58 IST" name="afterMethod" finished-at="2021-08-26T12:50:01 IST" duration-ms="2887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.vtiger.com_opptest.CreateOpportunity@323b36e0]" started-at="2021-08-26T12:50:01 IST" name="beforeMethod" finished-at="2021-08-26T12:50:07 IST" duration-ms="5920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="CreateOpportunity_tc_09_Test()[pri:0, instance:com.vtiger.com_opptest.CreateOpportunity@323b36e0]" started-at="2021-08-26T12:50:07 IST" name="CreateOpportunity_tc_09_Test" finished-at="2021-08-26T12:50:52 IST" duration-ms="45276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateOpportunity_tc_09_Test -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.vtiger.com_opptest.CreateOpportunity@323b36e0]" started-at="2021-08-26T12:50:52 IST" name="afterMethod" finished-at="2021-08-26T12:50:57 IST" duration-ms="4634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.vtiger.com_opptest.CreateOpportunity@323b36e0]" started-at="2021-08-26T12:50:57 IST" name="afterClass" finished-at="2021-08-26T12:50:58 IST" duration-ms="952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.vtiger.com_opptest.CreateOpportunity@323b36e0]" started-at="2021-08-26T12:50:58 IST" name="afterSuite" finished-at="2021-08-26T12:50:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.vtiger.com_opptest.CreateOpportunity -->
+    </test> <!-- TestRunner-2 -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="2">
+<listeners>
+	<listener class-name="com.vtiger.com_generic_utility.ListenerClassUtility"/>
+</listeners>
+  <test name="TestRunner-1">
+    <classes>
+      <class name="com.vtiger.com_opptest.copy.CreateOpportunity"/>
+      </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="TestRunner-2">
+    <classes>
+      <class name="com.vtiger.com_opptest.CreateOpportunity"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

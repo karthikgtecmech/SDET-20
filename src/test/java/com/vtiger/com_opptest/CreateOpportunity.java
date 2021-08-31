@@ -1,6 +1,8 @@
 package com.vtiger.com_opptest;
 
 import static org.testng.Assert.assertTrue;
+
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.vtiger.com_generic_utility.BaseClass;
@@ -11,7 +13,7 @@ import com.vtiger.com_pom_repository.OpportunityInfo;
 import com.vtiger.com_pom_repository.OpportunityPage;
 import com.vtiger.com_pom_repository.OrganizationsPage;
 
-//@Listeners(com.vtiger.com_generic_utility.ListenerClassUtility.class)
+@Listeners(com.vtiger.com_generic_utility.ListenerClassUtility.class)
 public class CreateOpportunity extends BaseClass{
 	@Test (groups = {"smokeTesting" , "regressionTesting"})
 	public void CreateOpportunity_tc_07_Test() throws Throwable {
@@ -44,6 +46,7 @@ public class CreateOpportunity extends BaseClass{
 		OpportunityInfo oppInfo = new OpportunityInfo(driver);
 		boolean actSuccMsg = oppInfo.getSuccessMsg().getText().contains(expSuccMsg); 
 		assertTrue(actSuccMsg);	
+		System.out.println("Opportunity is created with Marketting Group");
 	}
 	
 	@Test (groups = {"smokeTesting" , "regressionTesting"})
@@ -76,6 +79,7 @@ public class CreateOpportunity extends BaseClass{
 		OpportunityInfo oppInfo = new OpportunityInfo(driver);
 		boolean actSuccMsg = oppInfo.getSuccessMsg().getText().contains(expSuccMsg);
 		assertTrue(actSuccMsg);
+		System.out.println("Opportunity is created with Support Group");
 	}
 	
 	@Test (groups = {"smokeTesting" , "regressionTesting"})
@@ -108,5 +112,6 @@ public class CreateOpportunity extends BaseClass{
 		OpportunityInfo oppInfo = new OpportunityInfo(driver);
 		boolean actSuccMsg = oppInfo.getSuccessMsg().getText().contains(expSuccMsg);
 		assertTrue(actSuccMsg);	
+		System.out.println("Opportunity is created with Team Selling");
 	}
 }
